@@ -1,0 +1,125 @@
+body {
+    background: url('/Users/pruthvi/Desktop/ Programming/Assets/moon.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000; /* Black text */
+    font-family: 'American Typewriter', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background: #fff; /* White background */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.815); /* Light gray background on hover */
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#introduction,
+#services,
+#portfolio,
+#education {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#introduction:hover,
+#services:hover,
+#portfolio:hover,
+#education:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+#introduction h2,
+#services h2,
+#portfolio h2,
+#education h2 {
+    margin-bottom: 10px;
+}
+
+#introduction p,
+#services ul,
+#portfolio div,
+#education table {
+    color: #000; /* Black text */
+    margin-bottom: 8px;
+}
+
+#introduction a,
+#services ul li,
+#portfolio div p,
+#education table tbody tr {
+    color: #2a2e31ad;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#introduction a:hover,
+#services ul li:hover,
+#portfolio div p:hover,
+#education table tbody tr:hover {
+    text-decoration: underline;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px; /* Reduced cell padding */
+    text-align: left;
+    font-size: 14px; /* Smaller text size for table */
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
