@@ -1,5 +1,5 @@
 body {
-    background: url('/Users/pruthvi/Desktop/ Programming/Assets/moon.jpeg') no-repeat center center fixed;
+    background: url('Assets/moon.jpeg') no-repeat center center fixed;
     background-size: cover;
     color: #000;
     font-family: 'American Typewriter', sans-serif;
